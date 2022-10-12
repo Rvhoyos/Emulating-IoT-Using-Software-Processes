@@ -1,0 +1,18 @@
+READ ME
+-------------------------------------------------------------------------------------------------
+Made by Raul Hoyos-Jimenez | 101080847
+SYSC 4001 Assignemnt 1
+-------------------------------------------------------------------------------------------------
+		[Emulation of Internet of things IoT Using software processes]
+-------------------------------------------------------------------------------------------------
+To Run:
+--------1. Simply open xterm and navigate to the project folder
+--------2. Enter inside the terminal ./run
+--------3. Orgnize the position of the windows to see the emulated system operate.
+--------4. Exit with Ctrl + C
+	
+To customize:
+--------1.Open the run script and modify it as per the format provided
+--------2.You may add multiple sensors, they will connect to the last actuator created.
+--------3.You may add multiple actuators, they will connect to the same controller. 
+-------------------------------------------------------------------------------------------------

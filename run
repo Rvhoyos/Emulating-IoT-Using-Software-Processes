@@ -1,0 +1,17 @@
+gcc sensor.c -o sensor
+
+gcc actuator.c -o actuator
+
+gcc controller.c -o controller
+
+gcc cloud.c -o cloud
+
+xterm -e ./controller -T controller -e sleep 1 -&
+
+xterm -e ./cloud -T cloud -&
+
+xterm -e ./actuator -T actuator -&
+
+xterm -e ./sensor -T sensor -&
+
+xterm -e ./sensor -T sensor -&
